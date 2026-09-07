@@ -89,9 +89,6 @@ export function Footer() {
             <Link href="/terms" className="hover:text-white">
               Terms
             </Link>
-            <Link href="/finstage-delete-account" className="hover:text-white">
-              FinStage deletion
-            </Link>
           </div>
         </div>
       </div>

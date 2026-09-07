@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Exo } from "next/font/google";
-import { ChatWidget } from "@/components/ChatWidget";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+import { SiteChrome } from "@/components/SiteChrome";
 import { SoftBg } from "@/components/SoftBg";
 import { site } from "@/lib/site";
 import "./globals.css";
@@ -47,10 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${exo.variable} h-full`}>
       <body className={`${exo.className} relative min-h-dvh w-full max-w-full`}>
         <SoftBg />
-        <Header />
-        <main className="relative z-0 w-full min-w-0 max-w-full overflow-x-clip">{children}</main>
-        <Footer />
-        <ChatWidget />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

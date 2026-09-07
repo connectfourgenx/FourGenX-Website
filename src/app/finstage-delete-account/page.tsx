@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Container, PageHero, PageShell } from "@/components/ui";
+import { Container, PageShell } from "@/components/ui";
 
 const deletionEmail = "contact.finstage@gmail.com";
 
@@ -15,14 +15,13 @@ export const metadata: Metadata = {
 export default function FinstageDeleteAccountPage() {
   return (
     <PageShell>
-      <PageHero
-        eyebrow="FinStage"
-        title="FinStage Account & Data Deletion"
-        lead="Users can request deletion of their FinStage account and associated data at any time."
-      />
       <section>
-        <Container className="py-14">
+        <Container className="flex min-h-dvh items-center py-10">
           <div className="soft-card mx-auto max-w-3xl space-y-6 rounded-[28px] p-5 leading-7 text-ink-soft sm:p-8">
+            <h1 className="font-display text-3xl font-medium leading-tight text-ink sm:text-4xl">
+              FinStage Account & Data Deletion
+            </h1>
+            <p>Users can request deletion of their FinStage account and associated data at any time.</p>
             <p>
               To request account deletion, send an email to:{" "}
               <a href={`mailto:${deletionEmail}`} className="font-medium text-ink underline underline-offset-2">
