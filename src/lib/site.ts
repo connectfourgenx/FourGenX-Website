@@ -1,16 +1,15 @@
 export const site = {
-  name: "iSofton",
-  legalName: "iSofton Software Solutions",
+  name: "FourGenX",
+  legalName: "FourGenX Software Solutions",
   tagline: "Software • Solutions",
   description:
-    "iSofton is an independent software team in Mumbai and Surat. We build apps, websites, and AI tools for founders and operators.",
+    "FourGenX is an independent software team in Mumbai. We build apps, websites, and AI tools for founders and operators.",
   url: "https://isofton.com",
-  email: "contact@isofton.com",
+  email: "connect.fourgenx@gmail.com",
   phones: [
     { city: "Mumbai", display: "+91 89287 57717", e164: "918928757717" },
-    { city: "Surat", display: "+91 87994 31993", e164: "918799431993" },
   ],
-  // Figures supplied by iSofton. Keep these accurate — they are public claims.
+  // Figures supplied by FourGenX. Keep these accurate — they are public claims.
   stats: [
     { value: "42+", label: "clients served" },
     { value: "110+", label: "projects delivered" },
@@ -23,11 +22,6 @@ export const site = {
       city: "Mumbai",
       region: "Maharashtra, India",
       note: "Delivery team",
-    },
-    {
-      city: "Surat",
-      region: "Gujarat, India",
-      note: "Product & design",
     },
   ],
 };

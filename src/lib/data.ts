@@ -461,7 +461,7 @@ export const faqs = [
   },
   {
     q: "Where is the team?",
-    a: "Mumbai and Surat. We work with clients in India, the US, and Canada, on hours you choose.",
+    a: "Mumbai. We work with clients in India, the US, and Canada, on hours you choose.",
   },
   {
     q: "How do you use AI in delivery?",

@@ -5,7 +5,7 @@ import { steps } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "How we work",
-  description: "iSofton’s engagement model — discovery, build, and launch.",
+  description: "FourGenX’s engagement model — discovery, build, and launch.",
 };
 
 const models = [

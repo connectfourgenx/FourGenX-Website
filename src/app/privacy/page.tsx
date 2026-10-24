@@ -3,7 +3,7 @@ import { Container, PageHero, PageShell } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "How iSofton handles information you share with us.",
+  description: "How FourGenX handles information you share with us.",
 };
 
 export default function PrivacyPage() {
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
               We do not sell contact details. We do not run advertising pixels on this site. Hosting
               and email providers may process data as needed to deliver the service.
             </p>
-            <p>To ask what we hold or to request deletion, write to contact@isofton.com.</p>
+            <p>To ask what we hold or to request deletion, write to connect.fourgenx@gmail.com.</p>
           </div>
         </Container>
       </section>

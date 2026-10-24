@@ -170,7 +170,7 @@ export default function HomePage() {
         <Container className="grid items-stretch gap-7 sm:gap-10 lg:grid-cols-2 lg:gap-12">
           <PhotoTile
             src="/images/photos/team-collab.jpg"
-            alt="The iSofton team working together"
+            alt="The FourGenX team working together"
             tone="lavender"
             className="h-[220px] rounded-[24px] sm:h-[340px] sm:rounded-[28px] lg:h-full lg:min-h-[460px]"
             sizes="(min-width: 1024px) 50vw, 100vw"
@@ -178,7 +178,7 @@ export default function HomePage() {
           <div className="flex flex-col justify-center">
             <p className="text-sm font-medium text-lavender-deep">About us</p>
             <h2 className="mt-2 font-display text-[26px] font-medium sm:text-4xl xl:text-[42px]">
-              A full product team, working out of Mumbai and Surat.
+              A full product team, working out of Mumbai.
             </h2>
             <p className="mt-4 leading-7 text-ink-soft">
               Designers, engineers and analysts on the same brief — senior people who have shipped

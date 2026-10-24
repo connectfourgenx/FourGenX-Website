@@ -145,10 +145,10 @@ export function Header() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <a
-            href="mailto:contact@isofton.com"
+            href="mailto:connect.fourgenx@gmail.com"
             className="hidden text-sm text-ink-soft transition hover:text-ink xl:inline"
           >
-            contact@isofton.com
+            connect.fourgenx@gmail.com
           </a>
           <Link
             href="/contact"
@@ -250,11 +250,11 @@ export function Header() {
               Book a call
             </Link>
             <a
-              href="mailto:contact@isofton.com"
+              href="mailto:connect.fourgenx@gmail.com"
               className="py-3 text-center text-sm text-ink-soft"
               onClick={() => setOpen(false)}
             >
-              contact@isofton.com
+              connect.fourgenx@gmail.com
             </a>
           </nav>
         </div>

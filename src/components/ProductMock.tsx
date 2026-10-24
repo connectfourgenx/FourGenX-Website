@@ -28,7 +28,7 @@ export function ErpMock() {
   ];
 
   return (
-    <Window title="iSofton ERP · Dashboard">
+    <Window title="FourGenX ERP · Dashboard">
       <div className="flex h-[calc(100%-33px)]">
         <div className="hidden w-[22%] shrink-0 border-r border-[#f0ecf7] bg-[#faf8fd] py-2.5 sm:block">
           {NAV.map((item, i) => (
@@ -117,7 +117,7 @@ export function CrmMock() {
   ];
 
   return (
-    <Window title="iSofton CRM · Pipeline">
+    <Window title="FourGenX CRM · Pipeline">
       <div className="flex h-[calc(100%-33px)] gap-1.5 p-2.5">
         {columns.map((col) => (
           <div key={col.name} className="flex-1 rounded-lg bg-[#faf8fd] p-1.5">

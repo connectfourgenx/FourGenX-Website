@@ -6,7 +6,7 @@ import { work } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "Example product stories from iSofton Software Solutions.",
+  description: "Example product stories from FourGenX Software Solutions.",
 };
 
 export default function WorkPage() {

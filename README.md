@@ -1,6 +1,6 @@
-﻿# iSofton Software Solutions
+﻿# FourGenX Software Solutions
 
-Marketing site for iSofton — an AI-driven software studio.
+Marketing site for FourGenX — an AI-driven software studio.
 
 ## Run locally
 

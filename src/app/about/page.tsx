@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "iSofton is an independent software team in Mumbai and Surat.",
+  description: "FourGenX is an independent software team in Mumbai.",
 };
 
 const beliefs = [
@@ -35,11 +35,11 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="A small team that still answers the phone."
-        lead="iSofton builds custom software — websites, apps, and AI systems — from Mumbai and Surat."
+        lead="FourGenX builds custom software — websites, apps, and AI systems — from Mumbai."
       />
       <section>
         <Container className="grid items-center gap-10 py-14 lg:grid-cols-2">
-          <PhotoTile src="/images/photos/team-collab.jpg" alt="The iSofton team working together" tone="lavender" className="h-[320px] rounded-[28px]" sizes="(min-width: 1024px) 50vw, 100vw" />
+          <PhotoTile src="/images/photos/team-collab.jpg" alt="The FourGenX team working together" tone="lavender" className="h-[320px] rounded-[28px]" sizes="(min-width: 1024px) 50vw, 100vw" />
           <div>
             <h2 className="font-display text-3xl font-medium">How we work as a company</h2>
             <p className="mt-4 leading-7 text-ink-soft">
@@ -51,7 +51,7 @@ export default function AboutPage() {
               off on what goes to production.
             </p>
             <div className="relative mt-8 h-16 w-48">
-              <Image src="/logo-full.png" alt="iSofton Software Solutions" fill className="object-contain object-left" />
+              <Image src="/logo-full.png" alt="FourGenX Software Solutions" fill className="object-contain object-left" />
             </div>
           </div>
         </Container>

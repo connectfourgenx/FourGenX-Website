@@ -9,7 +9,7 @@ import { services } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "App, web, AI, machine learning, cloud, and product design from iSofton.",
+  description: "App, web, AI, machine learning, cloud, and product design from FourGenX.",
 };
 
 const offers = [

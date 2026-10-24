@@ -86,10 +86,10 @@ export function CtaBand() {
         <div className="flex flex-wrap gap-3 lg:justify-end">
           <ButtonLink href="/contact">Book a call</ButtonLink>
           <a
-            href="mailto:contact@isofton.com"
+            href="mailto:connect.fourgenx@gmail.com"
             className="inline-flex items-center text-sm text-ink-soft hover:text-ink"
           >
-            contact@isofton.com
+            connect.fourgenx@gmail.com
           </a>
         </div>
       </Container>

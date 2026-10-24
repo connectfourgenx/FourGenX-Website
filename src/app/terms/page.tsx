@@ -3,7 +3,7 @@ import { Container, PageHero, PageShell } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Terms",
-  description: "Terms of use for the iSofton website.",
+  description: "Terms of use for the FourGenX website.",
 };
 
 export default function TermsPage() {
@@ -12,7 +12,7 @@ export default function TermsPage() {
       <PageHero
         eyebrow="Legal"
         title="Terms of use"
-        lead="This site is provided by iSofton Software Solutions to share who we are and how to work with us."
+        lead="This site is provided by FourGenX Software Solutions to share who we are and how to work with us."
       />
       <section>
         <Container className="py-14">
@@ -26,7 +26,7 @@ export default function TermsPage() {
               without permission. Case studies describe typical outcomes; they are not a guarantee of
               the same result for every client.
             </p>
-            <p>Questions: contact@isofton.com.</p>
+            <p>Questions: connect.fourgenx@gmail.com.</p>
           </div>
         </Container>
       </section>

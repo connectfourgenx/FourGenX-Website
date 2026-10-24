@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <Logo tone="dark" />
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/60">
-            Independent software team in Mumbai and Surat. Apps, web, and applied AI.
+            Independent software team in Mumbai. Apps, web, and applied AI.
           </p>
         </div>
         <div>

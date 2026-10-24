@@ -4,7 +4,7 @@ import { faqs } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Answers about working with iSofton Software Solutions.",
+  description: "Answers about working with FourGenX Software Solutions.",
 };
 
 export default function FaqPage() {
@@ -13,7 +13,7 @@ export default function FaqPage() {
       <PageHero
         eyebrow="FAQ"
         title="Questions we hear on first calls."
-        lead="If yours is not here, write to contact@isofton.com."
+        lead="If yours is not here, write to connect.fourgenx@gmail.com."
       />
       <section>
         <Container className="space-y-4 py-14">

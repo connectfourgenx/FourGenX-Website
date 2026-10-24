@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Start a project with iSofton Software Solutions.",
+  description: "Start a project with FourGenX Software Solutions.",
 };
 
 export default function ContactPage() {
@@ -38,7 +38,7 @@ export default function ContactPage() {
                   <a
                     key={phone.e164}
                     href={`https://wa.me/${phone.e164}?text=${encodeURIComponent(
-                      "Hi iSofton — I would like to talk about a project.",
+                      "Hi FourGenX — I would like to talk about a project.",
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"

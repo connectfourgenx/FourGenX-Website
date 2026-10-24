@@ -173,7 +173,7 @@ const TOPICS: Record<string, Topic> = {
   /* ---- about us ---- */
   company: {
     answer:
-      "iSofton is an independent software team working out of Mumbai and Surat, building apps, websites and AI for founders and operators.",
+      "FourGenX is an independent software team working out of Mumbai, building apps, websites and AI for founders and operators.",
     next: [
       { id: "where", label: "Where are you based?" },
       { id: "work", label: "Can I see your work?" },
@@ -183,7 +183,7 @@ const TOPICS: Record<string, Topic> = {
   },
   where: {
     answer:
-      "Mumbai and Surat, working with clients across India, the US and Canada — on whichever hours suit you.",
+      "Mumbai, working with clients across India, the US and Canada — on whichever hours suit you.",
     next: [{ id: "work", label: "Can I see your work?" }, TALK],
     link: { href: "/contact", label: "Contact" },
   },
@@ -202,7 +202,7 @@ const TOPICS: Record<string, Topic> = {
 };
 
 const GREETING =
-  "Hi 👋 I'm the iSofton assistant. I can answer the basics and hand you to the team on WhatsApp.";
+  "Hi 👋 I'm the FourGenX assistant. I can answer the basics and hand you to the team on WhatsApp.";
 
 type Message = {
   id: number;
@@ -218,7 +218,7 @@ const waLink = (e164: string, text: string) =>
 export function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState("");
-  const [handoff, setHandoff] = useState("Hi iSofton — I would like to talk about a project.");
+  const [handoff, setHandoff] = useState("Hi FourGenX — I would like to talk about a project.");
   const [messages, setMessages] = useState<Message[]>([
     { id: 0, from: "bot", text: GREETING, replies: OPENERS },
   ]);
@@ -292,12 +292,12 @@ export function ChatWidget() {
     const text = draft.trim();
     if (!text) return;
     setDraft("");
-    setHandoff(`Hi iSofton — ${text}`);
+    setHandoff(`Hi FourGenX — ${text}`);
     push({ from: "user", text });
     window.setTimeout(() => {
       push({
         from: "bot",
-        text: "Got it. I have put that in a WhatsApp message for you — tap Mumbai or Surat below and the team will pick it up, usually within a day.",
+        text: "Got it. I have put that in a WhatsApp message for you — tap the WhatsApp button below and the team will pick it up, usually within a day.",
         replies: [],
       });
     }, 350);
@@ -309,7 +309,7 @@ export function ChatWidget() {
     <>
       <div className="flex shrink-0 items-start justify-between gap-3 border-b border-[#f1ecf8] bg-lavender-mist/60 px-4 py-3.5 sm:px-5 sm:py-4">
         <div className="min-w-0">
-          <p className="font-display text-base font-medium text-ink">Chat with iSofton</p>
+          <p className="font-display text-base font-medium text-ink">Chat with FourGenX</p>
           <p className="mt-0.5 flex items-center gap-1.5 text-xs text-ink-muted">
             <span className="h-1.5 w-1.5 rounded-full bg-[#25d366]" aria-hidden />
             We reply within a day
@@ -381,7 +381,7 @@ export function ChatWidget() {
         <p className="text-[11px] font-medium uppercase tracking-wide text-ink-muted">
           Continue on WhatsApp
         </p>
-        <div className="mt-2 grid grid-cols-2 gap-2">
+        <div className="mt-2 grid grid-cols-1 gap-2">
           {site.phones.map((phone) => (
             <a
               key={phone.e164}
@@ -493,7 +493,7 @@ export function ChatWidget() {
           <div
             role="dialog"
             aria-modal="true"
-            aria-label="Chat with iSofton"
+            aria-label="Chat with FourGenX"
             className="fixed z-[61] flex flex-col overflow-hidden rounded-[24px] border border-[#ebe4f4] bg-white shadow-[0_20px_50px_-20px_rgba(26,29,38,0.35)] max-sm:inset-x-3 max-sm:bottom-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.75rem))] max-sm:top-auto max-sm:h-[min(520px,calc(100dvh-8.5rem))] sm:bottom-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.5rem))] sm:right-[max(1.25rem,env(safe-area-inset-right))] sm:h-[min(560px,calc(100dvh-8rem))] sm:w-[min(370px,calc(100vw-2.5rem))] sm:rounded-[26px]"
           >
             {panel}

@@ -25,7 +25,7 @@ export function ContactForm() {
       form.message,
     ].join("\n");
 
-    window.location.href = `mailto:contact@isofton.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:connect.fourgenx@gmail.com?subject=${encodeURIComponent(
       `Project inquiry — ${form.company || form.name}`,
     )}&body=${encodeURIComponent(body)}`;
     setSent(true);
@@ -39,7 +39,7 @@ export function ContactForm() {
       <div className="soft-card rounded-[28px] p-5 sm:p-8">
         <p className="text-sm font-medium text-lavender-deep">Sent to your mail app</p>
         <h2 className="mt-2 font-display text-2xl font-medium">
-          If nothing opened, write to contact@isofton.com.
+          If nothing opened, write to connect.fourgenx@gmail.com.
         </h2>
       </div>
     );
